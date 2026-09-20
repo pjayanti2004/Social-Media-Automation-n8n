@@ -40,17 +40,52 @@ The system uses multiple n8n workflows to manage different parts of the social m
 
 ## Workflow Architecture
 
-```text
-Content Management
-        ↓
-Content Selection
-        ↓
-Media Retrieval & Processing
-        ↓
-Social Media Publishing
-        ↓
-Status Tracking
-        ↓
-Posting History
-        ↓
+Content Management  
+↓  
+Content Selection  
+↓  
+Media Retrieval & Processing  
+↓  
+Social Media Publishing  
+↓  
+Status Tracking  
+↓  
+Posting History  
+↓  
 Monitoring & Reporting
+
+## Workflow Screenshots
+
+### 1. Social Media Agent
+
+Main workflow responsible for scheduled content processing, media handling, social media publishing, and status tracking.
+
+![Social Media Agent](screenshots/social-agent-workflow.png)
+
+### 2. TL Monitoring Agent
+
+Workflow responsible for processing posting history and generating team-level monitoring and reporting outputs.
+
+![TL Monitoring Agent](screenshots/tl-monitoring-agent.png)
+
+### 3. Head Monitoring Agent
+
+Workflow responsible for generating overall monitoring reports and sending automated email reports.
+
+![Head Monitoring Agent](screenshots/head-monitoring-agent.png)
+
+## My Contribution
+
+- Designed and maintained n8n automation workflows for social media operations.
+- Implemented content processing, publishing, status tracking, and reporting workflows.
+- Integrated Google Sheets, Google Drive, and Meta APIs.
+- Worked on post and story publishing automation.
+- Implemented posting history and monitoring workflows.
+- Built automated HTML email reporting workflows.
+- Debugged workflow execution issues and worked on production workflow recovery.
+
+## Project Context
+
+This project was developed as part of my internship work and involved building and maintaining automation workflows for social media operations.
+
+Production credentials, private configuration, company data, and confidential workflow files are not included in this repository.
